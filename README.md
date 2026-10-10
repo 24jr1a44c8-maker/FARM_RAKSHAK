@@ -87,7 +87,7 @@ For a judge presentation, enable **Judge presentation demo (simulated labels)** 
 
 ## Install on a Phone (Public HTTPS Deployment)
 
-The project includes a Render Blueprint in `render.yaml`. It runs the FastAPI backend and frontend together, checks `/health`, and Render provides the HTTPS address required for phone camera access and installation. The configured `standard` instance is a paid plan; review Render's current pricing before creating it. The prototype currently has no sign-in, so anyone with the deployment URL can use its API, including zone reset endpoints.
+The project includes a Render Blueprint in `render.yaml`. It runs the FastAPI backend and frontend together, checks `/health`, and Render provides the HTTPS address required for phone camera access and installation. The Blueprint uses Render's free plan; free services may sleep when idle and can have memory limits that affect PyTorch inference. The prototype currently has no sign-in, so anyone with the deployment URL can use its API, including zone reset endpoints.
 
 To deploy:
 
