@@ -1,2 +1,21 @@
+[project]
+name = "farm-rakshak"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "torch",
+    "torchvision",
+    "qiskit",
+    "qiskit-machine-learning",
+    "qiskit-algorithms",
+    "scikit-learn",
+    "pillow",
+    "numpy",
+    "opencv-python-headless",
+    "ultralytics",
+]
+
 [tool.vercel]
 entrypoint = "backend.main:app"
