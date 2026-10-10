@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative leaf symptom example</title>
+  <desc id="desc">Stylized leaf with fictional spots for an example disease-alert presentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="1" stop-color="#f6e7bf"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8dbb62"/>
+      <stop offset="1" stop-color="#4f8e4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="360" fill="url(#bg)"/>
+  <circle cx="104" cy="75" r="30" fill="#fff" opacity=".62"/>
+  <path d="M0 292c133-40 267-25 381 7s211 32 339-16v77H0z" fill="#e9d9ab"/>
+  <path d="M170 310c91-86 171-156 265-220" fill="none" stroke="#39764a" stroke-linecap="round" stroke-width="10"/>
+  <path d="M391 174c-23-102 18-158 125-169 12 105-27 160-125 169z" fill="url(#leaf)"/>
+  <path d="M345 209c-99 15-156-27-170-125 105-16 162 23 170 125z" fill="url(#leaf)"/>
+  <path d="M347 236c-37 96-99 124-190 84 43-97 104-124 190-84z" fill="#75a957"/>
+  <path d="M424 213c79-67 150-66 212 5-76 70-147 68-212-5z" fill="#6c9f54"/>
+  <path d="M222 108c45 28 82 63 119 101M505 28c-45 51-88 106-127 164M185 319c55-30 106-63 162-92M628 218c-61-10-120-17-204-5" fill="none" stroke="#d7e7bf" stroke-width="4" opacity=".72"/>
+  <g fill="#d38a3a" stroke="#ffe6a8" stroke-width="3">
+    <circle cx="447" cy="91" r="12"/><circle cx="487" cy="126" r="8"/><circle cx="282" cy="139" r="10"/>
+    <circle cx="302" cy="274" r="11"/><circle cx="548" cy="214" r="9"/>
+  </g>
+</svg>

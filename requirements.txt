@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+torch
+torchvision
+qiskit
+qiskit-machine-learning
+qiskit-algorithms
+scikit-learn
+Pillow
+numpy
+opencv-python-headless
+ultralytics

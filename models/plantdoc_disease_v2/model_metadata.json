@@ -1,0 +1,74 @@
+{
+  "model_metadata_version": 1,
+  "class_names": [
+    "Disease",
+    "Unspecified Leaf"
+  ],
+  "training_samples": 1024,
+  "training_counts": {
+    "Disease": 512,
+    "Unspecified Leaf": 512
+  },
+  "validation_counts": {
+    "Disease": 605,
+    "Unspecified Leaf": 774
+  },
+  "test_counts": {
+    "Disease": 269,
+    "Unspecified Leaf": 178
+  },
+  "evaluation": {
+    "validation": {
+      "accuracy": 0.480058,
+      "macro_f1": 0.47742,
+      "confusion_matrix": [[282, 323], [394, 380]],
+      "per_class": {
+        "Disease": {
+          "precision": 0.41716,
+          "recall": 0.46612,
+          "f1": 0.44028,
+          "support": 605
+        },
+        "Unspecified Leaf": {
+          "precision": 0.54054,
+          "recall": 0.49096,
+          "f1": 0.51456,
+          "support": 774
+        }
+      }
+    },
+    "test": {
+      "accuracy": 0.474272,
+      "macro_f1": 0.46649,
+      "confusion_matrix": [[133, 136], [99, 79]],
+      "per_class": {
+        "Disease": {
+          "precision": 0.573276,
+          "recall": 0.49442,
+          "f1": 0.53094,
+          "support": 269
+        },
+        "Unspecified Leaf": {
+          "precision": 0.367442,
+          "recall": 0.44382,
+          "f1": 0.40204,
+          "support": 178
+        }
+      }
+    }
+  },
+  "artifacts": {
+    "scaler.pkl": "91e901f3659b47a38dc892e74a0b985448c5e9140639f06c5980d53b0e70a9d6",
+    "pca.pkl": "064436e9903e5e5b7d55161830920c30a667a711f515da6d78998f5b1cc90d7b",
+    "vqc.model": "69429f282abaf67f40f9cfd3bb71bb512b3311486fbcf15f22b521ddc140122e"
+  },
+  "feature_extractor": "torchvision MobileNetV2 ImageNet weights",
+  "reduction": "StandardScaler + 4-component PCA",
+  "classifier": "Qiskit Machine Learning VQC with StatevectorSampler",
+  "dataset": "PlantDoc explicit disease categories and unspecified leaf categories",
+  "disease_labels_are_pest_labels": false,
+  "unspecified_leaf_means_healthy": false,
+  "deployment_status": "research_only",
+  "inference_approved": false,
+  "trained_at_utc": "2026-10-09T18:13:58.143716+00:00"
+}

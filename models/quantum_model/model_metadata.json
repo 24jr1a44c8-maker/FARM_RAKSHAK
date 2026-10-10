@@ -1,0 +1,17 @@
+{
+  "class_names": [
+    "Healthy",
+    "Pest",
+    "Disease"
+  ],
+  "training_samples": 120,
+  "training_counts": {
+    "Healthy": 40,
+    "Pest": 40,
+    "Disease": 40
+  },
+  "feature_extractor": "torchvision MobileNetV2 ImageNet weights",
+  "reduction": "StandardScaler + 4-component PCA",
+  "classifier": "Qiskit Machine Learning VQC with StatevectorSampler",
+  "trained_at_utc": "2026-03-20T10:00:00Z"
+}

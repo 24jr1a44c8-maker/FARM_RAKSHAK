@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "FARM RAKSHAK",
+  "short_name": "FARM RAKSHAK",
+  "description": "Smart agriculture monitoring with leaf detection and farm zone tracking.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F5FAF7",
+  "theme_color": "#F5FAF7",
+  "icons": [
+    {
+      "src": "/farm-rakshak-app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

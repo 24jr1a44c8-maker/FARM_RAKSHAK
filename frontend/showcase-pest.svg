@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative plant and insect</title>
+  <desc id="desc">Stylized leaf and fictional insect illustration for a pest-alert example.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcebea"/>
+      <stop offset="1" stop-color="#f6d8d5"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#62b577"/>
+      <stop offset="1" stop-color="#287b52"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="360" fill="url(#bg)"/>
+  <circle cx="600" cy="74" r="34" fill="#fff" opacity=".62"/>
+  <path d="M0 285c125-33 244-31 357 3s224 39 363-11v83H0z" fill="#eac6c0"/>
+  <path d="M121 319c91-85 173-153 278-222" fill="none" stroke="#37794d" stroke-linecap="round" stroke-width="10"/>
+  <path d="M344 177c-16-95 28-150 132-159 6 101-37 156-132 159z" fill="url(#leaf)"/>
+  <path d="M301 217c-98 18-155-22-175-119 103-20 161 17 175 119z" fill="#55a369"/>
+  <path d="M300 240c-42 94-105 119-193 73 47-94 110-118 193-73z" fill="#79b66b"/>
+  <path d="M380 29c-17 46-37 94-72 143M181 102c48 24 86 59 120 105M108 312c62-31 126-66 194-98" fill="none" stroke="#d8eed9" stroke-width="4" opacity=".76"/>
+  <g transform="translate(535 182)" stroke="#583e32" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-20-4c-22-27-47-24-49-6 13 2 23 7 31 18M20-4c22-27 47-24 49-6-13 2-23 7-31 18" fill="#f3bc72" stroke-width="4"/>
+    <ellipse cx="0" cy="0" rx="19" ry="25" fill="#9b6340" stroke-width="4"/>
+    <circle cx="0" cy="-29" r="12" fill="#77503c" stroke-width="4"/>
+    <path d="M-6-39-13-52M6-39l7-13M-15 4l-25 13M15 4l25 13M-16 17l-22 25M16 17l22 25" fill="none" stroke-width="5"/>
+    <circle cx="-4" cy="-31" r="2.5" fill="#fff" stroke="none"/><circle cx="4" cy="-31" r="2.5" fill="#fff" stroke="none"/>
+  </g>
+  <circle cx="535" cy="182" r="54" fill="none" stroke="#fff" stroke-dasharray="5 8" stroke-width="2" opacity=".6"/>
+</svg>

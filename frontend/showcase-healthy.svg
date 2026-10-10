@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrative healthy plant</title>
+  <desc id="desc">Stylized green leaves against a bright agricultural background.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8f5eb"/>
+      <stop offset="1" stop-color="#cde8d5"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#63b879"/>
+      <stop offset="1" stop-color="#238b57"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="360" fill="url(#sky)"/>
+  <circle cx="584" cy="72" r="40" fill="#fff3d6" opacity=".9"/>
+  <path d="M0 275c114-42 202-27 311 7s253 48 409-8v86H0z" fill="#b9dfc2"/>
+  <path d="M356 328c-9-67-8-130 2-194" fill="none" stroke="#377d4c" stroke-linecap="round" stroke-width="10"/>
+  <path d="M355 264c-48-70-109-92-178-66 39 72 97 98 178 66z" fill="url(#leaf)"/>
+  <path d="M354 218c43-75 106-101 180-77-36 78-95 105-180 77z" fill="url(#leaf)"/>
+  <path d="M355 160c-27-59-20-108 21-151 44 52 45 103-21 151z" fill="#79c988"/>
+  <path d="M193 202c53 16 104 36 160 62M527 153c-58 26-115 57-172 93M376 21c-12 43-18 87-21 139" fill="none" stroke="#d9f0dd" stroke-linecap="round" stroke-width="4" opacity=".8"/>
+  <g fill="#fff" opacity=".55">
+    <circle cx="108" cy="84" r="5"/><circle cx="145" cy="122" r="3"/><circle cx="633" cy="206" r="4"/>
+  </g>
+</svg>
